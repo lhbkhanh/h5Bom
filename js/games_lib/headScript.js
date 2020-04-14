@@ -1,0 +1,1 @@
+window.ga_channel_name = window.ga_channel_name || location.search.split('utm_campaign=')[1] ? location.search.split('utm_campaign=')[1].split('&')[0] : "undefined";
