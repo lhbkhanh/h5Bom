@@ -11,3 +11,15 @@
     display: none;
 }
 
+
+@media screen and (orientation: landscape) {
+      html {
+        /* Rotate the content container */
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+    }
