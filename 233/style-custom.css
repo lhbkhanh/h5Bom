@@ -1,0 +1,13 @@
+/* this style will override style in defaut cocos */
+
+/* plash screen will display gif loading file instead of splash image */
+#splash {
+    background: #171717 url(./loading.gif) no-repeat center;
+    background-size: 20%;
+}
+/* disable loading progress */
+.progress-bar {
+    height: 0px;
+    display: none;
+}
+
